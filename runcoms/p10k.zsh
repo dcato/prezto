@@ -426,11 +426,11 @@ fi
   # Default context color.
   typeset -g POWERLEVEL9K_CONTEXT_FOREGROUND=180
   # Default context format: %n is username, %m is hostname.
-  typeset -g POWERLEVEL9K_CONTEXT_TEMPLATE='%n@%m'
+  typeset -g POWERLEVEL9K_CONTEXT_TEMPLATE='%n@local'
 
-  # Context color when running with privileges.
+  # Context color when running remote.
   typeset -g POWERLEVEL9K_CONTEXT_REMOTE_FOREGROUND=227
-  # Context format when running with privileges: %n is username, %m is hostname.
+  # Context format when running remote: %n is username, %m is hostname.
   typeset -g POWERLEVEL9K_CONTEXT_REMOTE_TEMPLATE='%n@%m'
 
   # Context color when running with privileges.
