@@ -1,10 +1,10 @@
 inosc=0
 
 function clean_up() {
-  if [[ $inosc == 1 ]]
-  then
-    print_st
-  fi
+    if [[ $inosc == 1 ]]
+    then
+        print_st
+    fi
 }
 
 function show_help() {
